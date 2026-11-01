@@ -19,11 +19,12 @@ Python version: 3.13
 Seed: 42
 
 3. ### **Results: the final comparison table (all models, the same metrics) and a one-sentence recommendation of which model you would use and why.**
-![img_1.png](img_1.png)
-![img.png](img.png)
-![learning_curves.png](learning_curves.png)
-![img_4.png](img_4.png)
-![img_2.png](img_2.png)
+<img width="722" height="567" alt="{7ED714AD-DE77-4AC6-ADC6-F0CEAB49E495}" src="https://github.com/user-attachments/assets/19afffae-5baa-456f-90fa-c22d33ac4309" />
+<img width="869" height="594" alt="{F0EA0A7D-261F-4613-9C1F-33698F78C7A2}" src="https://github.com/user-attachments/assets/1e0f7ffe-183d-44a8-b037-13b9173e05d3" />
+<img width="594" height="206" alt="{7E1690EE-2CB8-4C06-ABC7-934A53D962DE}" src="https://github.com/user-attachments/assets/550c532d-4fd1-4f96-99d0-184e31e94eee" />
+<img width="536" height="164" alt="{79426510-24BF-4C10-8108-231AB1021859}" src="https://github.com/user-attachments/assets/f7665bc6-3e13-4b82-bc5a-154d90974b61" />
+<img width="1606" height="475" alt="{567561B6-E8A1-4698-BA68-EA07FD7F82F7}" src="https://github.com/user-attachments/assets/c025f108-c6f3-4af1-8b36-4c71ac8002f4" />
+
 I would use tuned gradient boosting for it's efficiency, intuitively easy concept for beginners in the field.
 
 4. ### **Key findings: three to five short points from your exploration and error analysis.**
