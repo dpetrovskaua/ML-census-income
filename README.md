@@ -26,6 +26,8 @@ Seed: 42
 | RandomForest         | 0.860  | 0.743 | 0.636 | 0.685 | 0.904 |
 | HistGradientBoosting | 0.875  | 0.785 | 0.660 | 0.717 | 0.929 |
 | PyTorch MLP          | 0.859  | 0.748 | 0.619 | 0.677 | 0.912 |
+
+
 I recommend HistGradientBoostingClassifier as a model of choice for this kind of project,
 since it achieves the highest metrics, while handling tabular feature interactions effectively.
 
@@ -54,12 +56,5 @@ One of other difficulties were independent learning of libraries and functions w
 
 Learned new Jupiter environment that was much easier to use than i expected, due to negative experience in past (browser version suuuckksss).
 
-
-
-
-
-
-
-marital status (44.6% of married-civ-spouse people earn >50K against 4.5% of never-married),
-   capital gain (61.7% earn >50K when it is non-zero against 20.5% when zero, although 91.7% of values are zero)
-   and age (by age group, approximately: 1.8% of 17-25 age group earn >50K, for 26-35 it's 1.9%, from 36-45 age group percentage rises up to 35%, same for 46-55 - 39%, 56-65 - 31%, and 66-90 - 20%)
+### After-Feedback
+Explanation for "copied from tg" lines: The task brief for First Assignment contained Tips for beginners, from which these lines were taken from
