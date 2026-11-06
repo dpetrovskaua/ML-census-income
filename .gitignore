@@ -1,9 +1,11 @@
-# ADDED "data caches and model files larger than a few megabytes."
 .idea/
 data/
 *.pt
 *.pkl
 *.joblib
+
+*.pth
+.venv*/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

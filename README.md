@@ -14,7 +14,8 @@ The data is the Adult dataset (OpenML name adult, version 2), with 48,842 rows, 
    5. `pip install -r requirements.txt`
    6. `jupyter notebook`
 
-Python version: 3.13
+Requires Python 3.10+
+(My ver: 3.13)
 
 Seed: 42
 
