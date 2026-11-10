@@ -20,14 +20,14 @@ Requires Python 3.10+
 Seed: 42
 
 3. ### **Results: Model comparison and recommendation of best-performance model**
-| Model                                 | Accuracy | Precision | Recall | F1   | ROC AUC |
-|---------------------------------------|--------|-------|-------|------|-------|
-| Dummy                                 | 0.761  | 0.000 | 0.000 | 0.000 | 0.500 |
-| Logic regression                      | 0.852  | 0.741 | 0.589 | 0.656 | 0.904 |
-| RandomForest                          | 0.860  | 0.743 | 0.636 | 0.685 | 0.904 |
-| HistGradientBoosting                  | 0.875  | 0.785 | 0.660 | 0.717 | 0.929 |
-| PyTorch MLP                           | 0.859  | 0.748 | 0.619 | 0.677 | 0.912 |
-| Neural network (MLP): mean of 5 seeds | 0.858 | 0.746 | 0.619 | 0.676 | 0.912 |
+| Model                                 | Accuracy | Precision | Recall | F1    | ROC AUC |
+|---------------------------------------|----------|-----------|--------|-------|-------|
+| Dummy                                 | 0.761    | 0.000     | 0.000  | 0.000 | 0.500 |
+| Logic regression                      | 0.852    | 0.741     | 0.589  | 0.656 | 0.904 |
+| RandomForest                          | 0.860    | 0.743     | 0.636  | 0.685 | 0.904 |
+| HistGradientBoosting                  | 0.875    | 0.787     | 0.655  | 0.715 | 0.929 |
+| PyTorch MLP                           | 0.859    | 0.748     | 0.619  | 0.677 | 0.912 |
+| Neural network (MLP): mean of 5 seeds | 0.858    | 0.746     | 0.619  | 0.676 | 0.912 |
 
 
 I recommend HistGradientBoostingClassifier as a model of choice for this kind of project,
