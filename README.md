@@ -20,7 +20,7 @@ Requires Python 3.12+
 
 4. ### Seed: 42
 
-5. ### **Results: Model comparison and recommendation of best-performance model**
+5. ### **Results:**
 | Model                                 | Accuracy | Precision | Recall | F1    | ROC AUC |
 |---------------------------------------|----------|-----------|--------|-------|---------|
 | Dummy                                 | 0.761    | 0.000     | 0.000  | 0.000 | 0.500   |
@@ -32,6 +32,11 @@ Requires Python 3.12+
 
 I recommend HistGradientBoostingClassifier as a model of choice for this kind of project,
 since it achieves the highest metrics, while handling tabular feature interactions effectively.
+
+Learning curves of the network: 
+Without regularisation the validation loss starts to rise after about epoch 12, and early stopping restores the best epoch.
+![Learning curve, plain MLP](figures/learning_curve_plain.png)
+![Learning curve, MLP with early stopping](figures/learning_curve_reg.png)
 
 6. ### **Key findings:**
     1. Baseline: 76.1% of people earn <=50K, so always predicting that class gives 76.1% accuracy. Accuracy alone is a weak metric here, which is why precision, recall, F1 and ROC AUC are also taken into account.
