@@ -27,7 +27,6 @@ Requires Python 3.12+
 | Logic regression                      | 0.852    | 0.741     | 0.589  | 0.656 | 0.904   |
 | RandomForest                          | 0.860    | 0.743     | 0.636  | 0.685 | 0.904   |
 | HistGradientBoosting                  | 0.875    | 0.787     | 0.655  | 0.715 | 0.929   |
-| PyTorch MLP                           | 0.858    | 0.748     | 0.614  | 0.675 | 0.912   |
 | Neural network (MLP): mean of 5 seeds | 0.858    | 0.746     | 0.619  | 0.676 | 0.912   |
 
 
