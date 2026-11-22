@@ -9,7 +9,7 @@ The data is the Adult dataset (OpenML name adult, version 2), with 48,842 rows, 
 2. ### **How to run:**
    1. `git clone https://github.com/dpetrovskaua/ML-census-income.git`
    2. `cd ML-census-income`
-   3. `python -m venv .venv`
+   3. `py -m venv .venv`
    4. `Windows: .venv\Scripts\activate`  /  `macOS/Linux: source .venv/bin/activate`
    5. `pip install -r requirements.txt`
    6. `jupyter notebook`
